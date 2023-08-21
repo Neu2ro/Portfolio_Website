@@ -2,8 +2,17 @@
      .portfolios {
           grid-template-columns: 1fr;
           padding-bottom: 6rem;
+          .portfolio-item .hover-items {
+               h2 {
+                    margin: 0.5rem;
+                    font-size: 0.75rem !important;
+               }
+               h3 {
+                    font-size: 1rem !important;
+                    margin-bottom: 0.5rem;
+               }
+          }
      }
-
      .contact-content-con {
           min-height: 170vh !important;
           flex-direction: column;
@@ -12,20 +21,9 @@
                margin-top: 2.5rem;
           }
      }
-
-     .contact-content-con .right-contact .i-c-2 {
-          flex-direction: column;
-     }
-
-     .contact-content-con .right-contact .i-c-2 :last-child {
-          margin-left: 0 !important;
-          margin-top: 1.5rem;
-     }
-
      .section {
           padding: 2rem 2.5rem !important;
      }
-
      .main-title {
           h2 {
                font-size: 2rem;
@@ -83,6 +81,16 @@
 
      .portfolios {
           grid-template-columns: 1fr 1fr;
+          .portfolio-item .hover-items {
+               h2 {
+                    margin: 0.5rem;
+                    font-size: 1rem !important;
+               }
+               h3 {
+                    font-size: 1.5rem !important;
+                    margin-bottom: 0.5rem;
+               }
+          }
      }
 }
 
